@@ -10,7 +10,7 @@ local ImageLabel = Instance.new("ImageLabel")
 local UICorner = Instance.new("UICorner")
 local close = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local game = Instance.new("TextLabel")
+local gametext = Instance.new("TextLabel")
 local UICorner_3 = Instance.new("UICorner")
 local Tabs = Instance.new("Frame")
 local UIListLayout = Instance.new("UIListLayout")
@@ -104,18 +104,18 @@ close.TextWrapped = true
 
 UICorner_2.Parent = close
 
-game.Name = "game"
-game.Parent = topbar
-game.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-game.BackgroundTransparency = 1.000
-game.BorderColor3 = Color3.fromRGB(0, 0, 0)
-game.BorderSizePixel = 0
-game.Position = UDim2.new(0.354545444, 0, -0.0399999991, 0)
-game.Size = UDim2.new(0, 200, 0, 25)
-game.Font = Enum.Font.SciFi
-game.Text = "Bloody Playground v.0.01"
-game.TextColor3 = Color3.fromRGB(45, 167, 203)
-game.TextSize = 14.000
+gametext.Name = "game"
+gametext.Parent = topbar
+gametext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gametext.BackgroundTransparency = 1.000
+gametext.BorderColor3 = Color3.fromRGB(0, 0, 0)
+gametext.BorderSizePixel = 0
+gametext.Position = UDim2.new(0.354545444, 0, -0.0399999991, 0)
+gametext.Size = UDim2.new(0, 200, 0, 25)
+gametext.Font = Enum.Font.SciFi
+gametext.Text = "Bloody Playground v.0.01"
+gametext.TextColor3 = Color3.fromRGB(45, 167, 203)
+gametext.TextSize = 14.000
 
 UICorner_3.Parent = Main
 
